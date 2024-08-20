@@ -18,7 +18,7 @@
  # Используемые навыки и инструменты
  * Python (библиотеки: Pandas).
  * SQL.
- * 
+ * SQLite.
  * Google Colab.
  * DBeaver
  * Draw.io.
