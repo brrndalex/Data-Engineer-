@@ -14,4 +14,4 @@
 |   5.  |     [Проект 5.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%205.)                 |    В РАЗРАБОТКЕ.      |   В разработке.                    |
 |   6.  |     [Проект 6.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%206.)                |    В РАЗРАБОТКЕ.      |   В разработке.                    |
 |   7.  |     [Проект 7.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%207.)                 |    В РАЗРАБОТКЕ.      |   В разработке.                    |
-|   8.  |     [Проект 8.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%205.)                 |    В РАЗРАБОТКЕ.      |   В разработке.                    |
+|   8.  |     [Проект 8.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%208.)                |    В РАЗРАБОТКЕ.      |   В разработке.                    |
