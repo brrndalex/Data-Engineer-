@@ -4,24 +4,22 @@
 Подготовить данные в HDFS. Загрузить данные в топик Apache Kafka. Переписать запрос для сборки витрины с SQL на PySpark. Сформировать пайплайн, считывая Apache Spark-ом данные из HDFS и из Apache Kafka. Сохранить результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS-директорию.
 
 # Действия в рамках проекта
-1 ЭТАП: "Работаю" в VSCode. Из командной строки запускаю Docker compose с Hadoop-кластером, состоящим из: Jupyter Notebook, Apache Kafka, Apache Spark, Hadoop, Hive. 2 ЭТАП: "Работаю" в Jupyter Notebook. В HDFS загружаю csv-файлы: "directors_genres.csv", "movies_genres.csv", "actors.csv", "roles.csv", "directors.csv", "movies_directors.csv", "movies.csv". 3 ЭТАП: В Kafdrop(веб-интерфейс Apache Kafka) создаю топик "project_movies". 4 ЭТАП: "Работаю" в Jupyter Notebook. Код- библиотеки confluent_kafka(Producer), json, csv. Из файла "movies.csv" запускаю загрузку записей в созданный топик Apache Kafka с условием: Каждую секунду в топик должна загружаться одна запись из файла. В Kafdrop в топике отслеживаю как загружаются записи. 5 ЭТАП: Переписываю запрос для сборки витрины с SQL на код PySpark. 6 ЭТАП: "Работаю" в Jupyter Notebook. Формирую пайплайн, считываю с помощью Apache Spark данные из Apache Kafka и из HDFS(csv-файлы). Код- библиотеки findspark, pyspark.sql, pyspark.sql.functions, pyspark.sql.types, запрос для сборки витрины на PySpark. Сохраняю результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS директорию. 
+1 ЭТАП: "Работаю" в VSCode. Из командной строки запускаю Docker compose с Hadoop-кластером, состоящим из: Jupyter Notebook, Apache Kafka, Apache Spark, Hadoop, Hive.  
+2 ЭТАП: "Работаю" в Jupyter Notebook. В HDFS загружаю csv-файлы: "directors_genres.csv", "movies_genres.csv", "actors.csv", "roles.csv", "directors.csv", "movies_directors.csv", "movies.csv".  
+3 ЭТАП: В Kafdrop(веб-интерфейс Apache Kafka) создаю топик "project_movies".  
+4 ЭТАП: "Работаю" в Jupyter Notebook. Код- библиотеки confluent_kafka(Producer), json, csv. Из файла "movies.csv" запускаю загрузку записей в созданный топик Apache Kafka с условием: Каждую секунду в топик должна загружаться одна запись из файла. В Kafdrop в топике отслеживаю как загружаются записи.  
+5 ЭТАП: Переписываю запрос для сборки витрины с SQL на код PySpark.  
+6 ЭТАП: "Работаю" в Jupyter Notebook. Формирую пайплайн, считываю с помощью Apache Spark данные из Apache Kafka и из HDFS(csv-файлы). Код- библиотеки findspark, pyspark.sql, pyspark.sql.functions, pyspark.sql.types, запрос для сборки витрины на PySpark. Сохраняю результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS директорию. 
 
 # Выводы по проекту
  Сформирован пайплайн, в результате которого считаны Apache Spark-ом данные из HDFS(csv-файлы) и из Apache Kafka(загружаемые в топик записи из csv-файла). Запрос для сборки витрины с SQL переписан на код PySpark. Результат работы пайплайна сохранен в формате parquet в HDFS-директории.
  
  # Используемые навыки и инструменты
- * Python (библиотеки: requests, boto3, json, pandas, pyarrow).
- * SQL.
- * Greenplum.
- * MinioS3.
- * DBT.
- * Data Vault 2.0.
- * Apache Airflow.
- * Командная строка Linux.
+ * Python (библиотеки: confluent_kafka(Producer), json, csv).
+ * Apache Spark (PySpark).
+ * Apache Hadoop (HDFS).
+ * Jupyter Notebook.
  * Docker compose.
- * VSCode.
- * DBeaver.
- * Draw.io.
-  
+ 
 # Статус
 - [x] Завершен
