@@ -8,7 +8,9 @@
 
 1 ЭТАП: Используя библиотеку pandas, прочитал файлы excel в датафреймы(df=pd.read_excel('/путь/файл') и провел первоначальный анализ-отчет с помощью библиотеки pandas_profiling (df.profile_report()), а также очистку данных(удалил дубликаты строк данных и оставил в датафрейме по вакансиям только нужные столбцы).
 
-2 ЭТАП: используя Python (библиотеку pandas), подключился к базе данных, создал новую базу 'vacancies_data_analysis.db', загрузил в нее 3 таблицы ('area', 'employer', 'vacancies') с данными.
+2 ЭТАП: используя Python (библиотеку pandas), подключился к базе данных, создал новую базу 'vacancies_data_analysis.db', загрузил в нее 3 таблицы ('area', 'employer', 'vacancies') с данными.  
+
+[Код 1 и 2 этапов в Google Colab](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%90%D0%9D%D0%90%D0%9B%D0%98%D0%97%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%9D%D0%9D/FILONENKO_PROJECT__SQL-1.ipynb)
 
 3 ЭТАП: Используя инструмент draw.io, описал [физическую модель данных](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%90%D0%9D%D0%90%D0%9B%D0%98%D0%97%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20%D0%9D%D0%9D/%D0%A4%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C%20%D0%BF%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%83%20SQL-2.png) для 3 таблиц('area', 'employer', 'vacancies'), загруженных в базу данных (DBeaver/SQLite).
 
