@@ -17,7 +17,7 @@ translator = Translator()
 selectLang = {}
 
 # токен телеграм-бота
-token = "6259230595:AAFEZo0v_V6U4VBOsS5yylH22e219WgvEfM"
+token = "..."
 
 # создаем бота
 bot = telebot.TeleBot(token, parse_mode=None)
