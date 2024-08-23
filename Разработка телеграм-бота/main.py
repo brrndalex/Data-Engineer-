@@ -109,5 +109,3 @@ bot.polling()
 
 # bot.infinity_polling(non_stop=True, interval=0)
 
-
-# token ="6259230595:AAFEZo0v_V6U4VBOsS5yylH22e219WgvEfM"
