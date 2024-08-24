@@ -11,11 +11,11 @@
 
 3 ЭТАП: При помощи библиотеки pandas(pandas.json_normalize - метод преобразования вложенных json структур в плоский, табличный вид) разворачиваю json-файлы в табличные структуры, которые преобразую в формат parquet, используя библиотеки pyarrow(извлекаем модуль parquet) и io (извлекаем класс BytesIO). Данные в формате parquet с помощью библиотеки boto3 сохраняю в Minio, в тот же бакет, в котором находятся ранее сохраненные json-файлы. 
 
-4 ЭТАП: "Работаю" в DBeaver, в GreenPlum. Данные в формате parquet из Minio загружаю во временные таблицы GreenPlum, используя протокол pxf.  
+4 ЭТАП: "Работаю" в DBeaver, в GreenPlum. [Данные в формате parquet из Minio загружаю во временные таблицы GreenPlum, используя протокол pxf.](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./%D0%A4%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-SQL-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B(S3-GP%2C%20Dbt-DV).sql)  
 
 5 ЭТАП: Произвожу моделирование данных детального слоя DWH по типу Data Vault2.0, используя инструмент draw.io.  
 
-6 ЭТАП: В DWH из временных таблиц GreenPlum загружаю данные в спроектированные объекты по типу Data Vault2.0 с помощью DBT(и пакетом автоматизации automateDV). "Работаю" в VSCode( с DBT), и в DBeaver.  
+6 ЭТАП: [В DWH из временных таблиц GreenPlum загружаю данные в спроектированные объекты по типу Data Vault2.0 с помощью DBT(и пакетом автоматизации automateDV).](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./%D0%A4%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-SQL-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B(S3-GP%2C%20Dbt-DV).sql) "Работаю" в VSCode( с DBT), и в DBeaver.  
 
 7 ЭТАП: С помощью Аpache Airflow стараюсь объединить все этапы в один общий, непрерывный поток, конвейер данных. "Работаю" в VSCode. Запускаю из командной строки docker compose с Minio, с GreenPlum, c Apache Airflow, c Postgres. Используя Python, пишу DAG для выполнения задач во всем конвейере. Используя веб-интерфейс Airflow через connector подключаю Airflow с Minio, с GreenPlum. "Работаю" в DBeaver, в GreenPlum. Создаю функции, которые будут наполнять временные таблицы из Minio. "Работаю" в веб-интерфейсе Airflow. Запускаю DAG, запускаю конвейер, отслеживаю его работу.  
 
