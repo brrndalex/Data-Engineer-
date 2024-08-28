@@ -14,7 +14,7 @@
 
 5 ЭТАП: Переписал запрос для сборки витрины с SQL на код PySpark.
 
-6 ЭТАП: "Работаю" в Jupyter Notebook. Формирую пайплайн, считываю с помощью Apache Spark данные из Apache Kafka и из HDFS(csv-файлы). Код- библиотеки findspark, pyspark.sql, pyspark.sql.functions, pyspark.sql.types, запрос для сборки витрины на PySpark. Сохраняю результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS директорию. 
+6 ЭТАП: Работал в Jupyter Notebook. Сформировал пайплайн, в котором  с помощью Apache Spark считывал данные из Apache Kafka и из HDFS(csv-файлы). Код- библиотеки findspark, pyspark.sql, pyspark.sql.functions, pyspark.sql.types, запрос для сборки витрины на PySpark. Сохранил результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS директорию. 
 
 # Выводы по проекту
  Сформирован пайплайн, в результате которого считаны Apache Spark-ом данные из HDFS(csv-файлы) и из Apache Kafka(загружаемые в топик записи из csv-файла). Запрос для сборки витрины с SQL переписан на код PySpark. Результат работы пайплайна сохранен в формате parquet в HDFS-директории.
