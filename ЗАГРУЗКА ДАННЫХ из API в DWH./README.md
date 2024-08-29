@@ -23,7 +23,13 @@
 
 6 ЭТАП: [В DWH из временных таблиц GreenPlum загрузил данные в спроектированные объекты по типу Data Vault2.0 с помощью DBT(и пакетом автоматизации automateDV).](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./%D0%A4%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-SQL-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B(S3-GP%2C%20Dbt-DV).sql) Работал в VSCode( с DBT), и в DBeaver.  
 
-7 ЭТАП: С помощью Аpache Airflow объединил этапы в один общий, непрерывный поток, конвейер данных. Работал в VSCode. Запустил из командной строки docker compose с Minio, с GreenPlum, c Apache Airflow, c Postgres. Используя Python, написал DAG для выполнения задач во всем конвейере. Используя веб-интерфейс Airflow через connector подключил Airflow с Minio, с GreenPlum. Работал в DBeaver, в GreenPlum. Создал функции, которые наполняют временные таблицы из Minio. Работал в веб-интерфейсе Airflow. Запустил DAG, запустил конвейер, отслеживал его работу.  
+7 ЭТАП: С помощью Аpache Airflow объединил этапы в один общий, непрерывный поток, конвейер данных. Работал в VSCode. Запустил из командной строки docker compose с Minio, с GreenPlum, c Apache Airflow, c Postgres. Используя Python, написал DAG для выполнения задач во всем конвейере. Используя веб-интерфейс Airflow через connector подключил Airflow с Minio, с GreenPlum. Работал в DBeaver, в GreenPlum. Создал функции, которые наполняют временные таблицы из Minio. Работал в веб-интерфейсе Airflow. Запустил DAG, запустил конвейер, отслеживал его работу.
+**Services**  
+| Service |	Port |
+|:--------|:-----|
+|  Minio  | http://localhost:9000     |
+|  GreenPlum       |  DBeaver host:localhost    |
+|  Airflow       |  http://localhost:8080    |  
 
 # Выводы по проекту
  УДАЛОСЬ: 1. В "ручном" режиме все получилось, а именно: Получить "сырые" данные из API и сохранить их в MinioS3 в форматах json и parquet. Из MinioS3 загрузить данные в формате parquet в DWH, во временные таблицы GreenPlum. А из временных таблиц загрузить данные в спроектированные объекты по типу Data Vault2.0. 2. Конвейер, получилось только следующее: С помощью Аpache Airflow объединить в один общий, непрерывный поток, конвейер данных, следующие этапы: Получить "сырые" данные из API и сохранить их в MinioS3 в форматах json и parquet. Из MinioS3 загрузить данные в формате parquet в DWH, во временные таблицы GreenPlum. НЕ УДАЛОСЬ: в DWH, из временных таблиц GreenPlum загрузить данные в спроектированные объекты по типу Data Vault2.0(запуск dbt-модели(astronomer cosmor))- с апреля 2024 закрыт доступ к API источника данных.
