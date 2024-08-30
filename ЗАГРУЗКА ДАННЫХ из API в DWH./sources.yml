@@ -1,0 +1,98 @@
+version: 2
+sources:
+  - name: transfermarkt
+    description: Data loaded from Transfermarkt API
+    database: greenplum
+    schema: stg
+    loaded_at_field: load_date
+    tables:
+      - name: stg_clubs
+        description: List of clubs loaded from Transfermarkt API
+        loaded_at_field: load_date::timestamp
+        freshness:
+          error_after:
+            count: 24
+            period: hour
+        columns:
+          - name: club_id
+            description: Club's identifier
+          - name: club_name
+            description: Club's name
+          - name: league_id
+            description: league's identifier
+          - name: league_name
+            description: Club's name
+          - name: league_seasonid
+            description: Season identifier
+          - name: load_date
+            description: Loading date
+      - name: stg_player_market_values
+        description: History of players' market values
+        columns:
+          - name: market_date
+            description: Date of market value
+          - name: market_value
+            description: Player's market values
+          - name: player_id
+            description: player's identifier
+          - name: load_date
+            description: Loading date  
+      - name: stg_club_players
+        description: Link between clubs and players
+        columns:
+          - name: club_id
+            description: Club's identifier
+          - name: player_id
+            description: Player's identifier
+          - name: load_date
+            description: Loading date
+      - name: stg_player_profiles
+        description: Players' profiles
+        columns:
+          - name: id
+          - name: name
+          - name: fullname
+          - name: dateofbirth
+          - name: height
+          - name: isretired
+          - name: foot
+          - name: placeofbirth_country
+          - name: position_main
+          - name: club_joined
+          - name: club_contractexpires
+          - name: agent_name
+          - name: description
+          - name: nameinhomecountry
+          - name: load_date
+            description: Loading date
+      - name: stg_club_profiles
+        description: Clubs' profiles
+        columns:
+          - name: id
+            description: Club's identifier
+          - name: name
+            description: Club's short name
+          - name: officialname
+            description: Club's official_name
+          - name: addressline1
+          - name: addressline2
+          - name: addressline3
+          - name: stadiumname
+          - name: stadiumseats
+          - name: currentmarketvalue
+          - name: load_date
+            description: Loading date
+      - name: stg_player_other_citizenship
+        description: Link between players and their citizenships
+        columns:
+          - name: id
+          - name: citizenship
+          - name: load_date
+            description: Loading date
+      - name: stg_player_other_positions
+        description: Player's positions
+        columns:
+          - name: id
+          - name: position_other
+          - name: load_date
+            description: Loading date
