@@ -12,7 +12,7 @@
   
 | Service |	Port |
 |:--------|:-----|
-|  Minio  | http://localhost:9001     |
+|  Minio  | http://localhost:9000     |
 |  GreenPlum       |  DBeaver host:localhost    |
 
 3 ЭТАП: При помощи библиотеки pandas(pandas.json_normalize - метод преобразования вложенных json структур в плоский, табличный вид) [развернул json-файлы в табличные структуры, которые преобразовал в формат parquet](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./project_minio_transfermarkt.py), используя библиотеки pyarrow(извлекаем модуль parquet) и io (извлекаем класс BytesIO). Данные в формате parquet с помощью библиотеки boto3 [сохранил в Minio](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./project_minio_transfermarkt.py), в тот же бакет, в котором находятся ранее сохраненные json-файлы. 
