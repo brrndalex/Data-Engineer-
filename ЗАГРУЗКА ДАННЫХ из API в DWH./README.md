@@ -1,7 +1,7 @@
 # **ЗАГРУЗКА ДАННЫХ из API в DWH.**
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4DF731&width=435&lines=%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90+%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5+;%D0%B8%D0%B7+API+%D0%B2+DWH.)](https://git.io/typing-svg)
 # Цель,задача проекта
-[!](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%20%D0%B8%D0%B7%20API.drawio.png)
+![](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%20%D0%B8%D0%B7%20API.drawio.png)
 1. В "ручном" режиме: Получить "сырые" данные из API и сохранить их в MinioS3 в форматах json и parquet. Из MinioS3 загрузить данные в формате parquet в DWH, во временные таблицы GreenPlum. И в заключении из временных таблиц загрузить данные в спроектированные объекты Data Vault.
 2. С помощью Аpache Airflow объединить все этапы в один общий, непрерывный поток, конвейер данных.
 
