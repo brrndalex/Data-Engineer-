@@ -8,8 +8,8 @@
 1 ЭТАП: Работал в VSCode. Из командной строки запустил [Docker compose с Hadoop-кластером, состоящим из: Jupyter Notebook, Apache Kafka, Apache Spark, Hadoop, Hive](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%2C%20%D0%B8%D0%B7%20Hadoop%20(HDFS)%2C%20Apache%20Kafka%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20Apache%20Spark%20%D0%B2%20Hadoop%20(HDFS)./docker-compose.yml).  
 | Service | Port|
 |:--------|:----|
-|  Jupyter Notebook       |     |
-|  Kafdrop(Apache Kafka)       |     |
+|  Jupyter Notebook       | http://localhost:8088    |
+|  Kafdrop(Apache Kafka)       | http://localhost:9001    |
   
 2 ЭТАП: Работал в Jupyter Notebook. В HDFS загрузил csv-файлы: "directors_genres.csv", "movies_genres.csv", "actors.csv", "roles.csv", "directors.csv", "movies_directors.csv", "movies.csv".
 
