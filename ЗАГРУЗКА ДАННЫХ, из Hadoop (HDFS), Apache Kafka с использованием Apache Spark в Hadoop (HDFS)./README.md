@@ -1,6 +1,7 @@
 # **ЗАГРУЗКА ДАННЫХ, из Hadoop (HDFS), Apache Kafka с использованием Apache Spark в Hadoop (HDFS).**
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=4DF731&width=435&lines=%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90+%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%2C;%D0%B8%D0%B7+Hadoop+(HDFS)%2C+Apache+Kafka++;%D1%81+%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC+Apache+Spark;%D0%B2+Hadoop+(HDFS).)](https://git.io/typing-svg)  
-# Цель,задача проекта
+# Цель,задача проекта  
+![](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%2C%20%D0%B8%D0%B7%20Hadoop%20(HDFS)%2C%20Apache%20Kafka%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20Apache%20Spark%20%D0%B2%20Hadoop%20(HDFS)./%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B0%20csv%20%D0%B8%D0%B7%20HDFS%20%D0%B8%20Kafka.drawio.png)
 Подготовить данные в HDFS. Загрузить данные в топик Apache Kafka. Переписать запрос для сборки витрины с SQL на PySpark. Сформировать пайплайн, считывая Apache Spark-ом данные из HDFS и из Apache Kafka. Сохранить результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS-директорию.
 
 # Действия в рамках проекта
