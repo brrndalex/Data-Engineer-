@@ -10,8 +10,7 @@
 |:--------|:----|
 |  Jupyter Notebook       | http://localhost:8888    |
 |  Kafdrop(Apache Kafka)       | http://localhost:9001    |
-|  Apache Spark       | master: http://localhost:8080  
-worker1: http://localhost:8081  
+|  Apache Spark       | master: http://localhost:8080 worker1: http://localhost:8081  
 worker2: http://localhost:8082    |
   
 2 ЭТАП: Работал в Jupyter Notebook. В HDFS загрузил csv-файлы: "directors_genres.csv", "movies_genres.csv", "actors.csv", "roles.csv", "directors.csv", "movies_directors.csv", "movies.csv".
