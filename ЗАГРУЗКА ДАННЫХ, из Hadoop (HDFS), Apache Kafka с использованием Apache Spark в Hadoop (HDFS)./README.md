@@ -19,7 +19,7 @@
 
 5 ЭТАП: Переписал запрос для сборки витрины с SQL на код PySpark.
 
-6 ЭТАП: Работал в Jupyter Notebook. Сформировал пайплайн, в котором  с помощью Apache Spark считывал данные из Apache Kafka и из HDFS(csv-файлы). Код- библиотеки findspark, pyspark.sql, pyspark.sql.functions, pyspark.sql.types, запрос для сборки витрины на PySpark. Сохранил результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS директорию. 
+6 ЭТАП: Работал в Jupyter Notebook. [Сформировал пайплайн, в котором  с помощью Apache Spark считывал данные из Apache Kafka и из HDFS(csv-файлы)](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5,%20%D0%B8%D0%B7%20Hadoop%20(HDFS),%20Apache%20Kafka%20%D1%81%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC%20Apache%20Spark%20%D0%B2%20Hadoop%20(HDFS)./project_consumer_spark_filonenko_ipynb_.py). Код- библиотеки findspark, pyspark.sql, pyspark.sql.functions, pyspark.sql.types, запрос для сборки витрины на PySpark. Сохранил результат работы пайплайна каждую минуту в формате parquet в произвольную HDFS директорию. 
 
 # Выводы по проекту
  Сформирован пайплайн, в результате которого считаны Apache Spark-ом данные из HDFS(csv-файлы) и из Apache Kafka(загружаемые в топик записи из csv-файла). Запрос для сборки витрины с SQL переписан на код PySpark. Результат работы пайплайна сохранен в формате parquet в HDFS-директории.
