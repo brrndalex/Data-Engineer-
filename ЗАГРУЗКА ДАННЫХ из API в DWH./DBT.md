@@ -50,3 +50,7 @@ dbt deps
 - positions_hub
 - position_types_hub
 - citizenships_hub  
+#### Links  
+- player_citizenship_lnk
+- player_position_type_lnk
+####
