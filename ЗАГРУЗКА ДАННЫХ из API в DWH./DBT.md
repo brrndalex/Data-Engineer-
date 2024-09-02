@@ -56,3 +56,6 @@ dbt deps
 #### Effectivity_satellites  
 - club_competition_season_esat
 #### Satellites
+- clubs_sat
+- players_sat
+- player_market_values_sat
