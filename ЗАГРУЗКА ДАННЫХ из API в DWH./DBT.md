@@ -11,4 +11,4 @@
 python -m pip install dbt-greenplum  
 #### Cоздание, инициализация проекта dbt
 dbt init  
-dbt_project.yml
+#### Папка [dbt_project.yml]() -содержит всю информацию о проекте
