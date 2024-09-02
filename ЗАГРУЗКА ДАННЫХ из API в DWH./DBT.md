@@ -35,5 +35,9 @@ from {{ source('transfermarkt', 'stg_club_players') }}
 dbt compile    
 #### Установлен и запущен АutomateDV  
 automate-dv install  
-dbt deps
+dbt deps    
+#### Созданы в файле с расширением .sql  с использованием jinja-шаблонов и запущены модели из схемы *dv_stage* и *dv*. Шаблоны на сайте. Команды на запуск моделей, в частности:  
+ dbt run -s v_dv_stage_clubs     
+ dbt run -s dv.hubs - сразу все хабы   
+ dbt run -s clubs_hub - один конкретный хаб
 #### 
