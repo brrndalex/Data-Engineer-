@@ -9,3 +9,6 @@
 # Действия
 #### Установка dbt-greenplum    
 python -m pip install dbt-greenplum  
+#### Cоздание, инициализация проекта dbt
+dbt init  
+
