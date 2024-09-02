@@ -19,7 +19,7 @@
 
 4 ЭТАП: Работал в DBeaver, в GreenPlum. [Данные в формате parquet из Minio загрузил во временные таблицы GreenPlum, используя протокол pxf.](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./%D0%A4%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-SQL-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B(S3-GP%2C%20Dbt-DV).sql)  
 
-5 ЭТАП: Произвел моделирование данных детального слоя DWH по типу Data Vault2.0, используя инструмент draw.io.  
+5 ЭТАП: Произвел [моделирование данных детального слоя DWH по типу Data Vault2.0](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./Logical%20model%20-%20Data%20Vault%20-%20football(project)_page-0001.jpg), используя инструмент draw.io.  
 
 6 ЭТАП: [В DWH из временных таблиц GreenPlum загрузил данные в спроектированные объекты по типу Data Vault2.0](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./%D0%A4%D0%B8%D0%BB%D0%BE%D0%BD%D0%B5%D0%BD%D0%BA%D0%BE-SQL-%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D1%8B(S3-GP%2C%20Dbt-DV).sql)  с помощью DBT(и пакетом автоматизации automateDV). Работал в VSCode( [с DBT](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./DBT.md)), в командной строке, и в DBeaver.  
 
