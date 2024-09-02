@@ -31,7 +31,7 @@ select
     , cast(player_id as int)
     , load_date  
 from {{ source('transfermarkt', 'stg_club_players') }}    
-#### Проверял модели  
+#### Проверял модели. Только для отладки, но, не запуска  
 dbt compile    
 #### Установлен и запущен АutomateDV  
 automate-dv install  
