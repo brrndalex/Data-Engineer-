@@ -12,5 +12,14 @@ python -m pip install dbt-greenplum
 #### Инициализация проекта dbt
 dbt init  
 #### Папки: 
-- [dbt_project.yml](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./dbt_project.yml) -содержит всю информацию о проекте.
+- [dbt_project.yml](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./dbt_project.yml) -содержит всю информацию(конфигурацию) о проекте.
 - [profiles.yml](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./profiles.yml) -настройка подключения к Greenplum.
+#### Запуск(построение) проекта с учетом настроек(конфигурации) по проекту    
+dbt build (весь проект)    
+dbt build -s example (части с учетом конфигурации проекта)
+#### Основные схемы для проекта  
+- example(тестирование)
+- stage
+-  dv_stage
+-  dv
+####
