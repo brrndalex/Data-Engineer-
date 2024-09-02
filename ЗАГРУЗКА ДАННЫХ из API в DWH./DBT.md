@@ -40,4 +40,5 @@ dbt deps
  dbt run -s v_dv_stage_clubs     
  dbt run -s dv.hubs - сразу все хабы   
  dbt run -s clubs_hub - один конкретный хаб
-#### 
+# Результат 
+### Данные загружены в спроектированные объекты по типу Data Vault2.0
