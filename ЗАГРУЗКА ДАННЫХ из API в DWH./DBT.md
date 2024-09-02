@@ -53,4 +53,6 @@ dbt deps
 #### Links  
 - player_citizenship_lnk
 - player_position_type_lnk
-####
+#### Effectivity_satellites  
+- club_competition_season_esat
+#### Satellites
