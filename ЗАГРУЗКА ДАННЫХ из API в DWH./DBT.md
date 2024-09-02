@@ -23,4 +23,4 @@ dbt build -s example (части с учетом конфигурации про
 -  dv_stage
 -  dv
 #### Определяем источники для построения моделей ( те данные, которые загружены в Greenplum, они являются основой для всех моделей) в следующей папке:  
-- [profiles.yml]()
+- [profiles.yml](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B8%D0%B7%20API%20%D0%B2%20DWH./sources.yml)
