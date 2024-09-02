@@ -42,3 +42,11 @@ dbt deps
  dbt run -s clubs_hub - один конкретный хаб
 # Результат 
 ### Данные загружены в спроектированные объекты по типу Data Vault2.0
+#### Hubs  
+- clubs_hub
+- seasons_hub
+- players_hub
+- competitions_hub
+- positions_hub
+- position_types_hub
+- citizenships_hub  
