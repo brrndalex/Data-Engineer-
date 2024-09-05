@@ -18,11 +18,11 @@
  # Используемые навыки и инструменты
  * Python (библиотеки: requests, csv, json, pandas).
  * SQL.
- * Greenplum.
+ * Apache Spark.
  * Apache Airflow.
  * Командная строка Linux.
  * Docker compose.
- * VSCode.
+ * Clickhouse.
  * DBeaver.
  * Draw.io.
   
