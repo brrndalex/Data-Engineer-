@@ -1,6 +1,6 @@
 # ЗАГРУЗКА ДАННЫХ в PostgreSQL, Clickhouse (csv,Spark, Airflow)
 # Цель,задача проекта
-![]()  
+![](https://github.com/brrndalex/Data-Engineer-Projects/blob/main/%D0%97%D0%90%D0%93%D0%A0%D0%A3%D0%97%D0%9A%D0%90%20%D0%94%D0%90%D0%9D%D0%9D%D0%AB%D0%A5%20%D0%B2%20PostgreSQL%2C%20Clickhouse(csv%2CSpark%2C%20Airflow)/PostgreSQL-Clickhouse.drawio.png)  
 1.    
 2.   
 
@@ -18,10 +18,6 @@
  # Используемые навыки и инструменты
  * Python (библиотеки: requests, boto3, json, pandas, pyarrow).
  * SQL.
- * Greenplum.
- * MinioS3.
- * DBT.
- * Data Vault 2.0.
  * Apache Airflow.
  * Командная строка Linux.
  * Docker compose.
