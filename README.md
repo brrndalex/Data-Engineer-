@@ -14,7 +14,7 @@
 |   5.  |     [ЗАГРУЗКА ДАННЫХ в PostgreSQL.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%205.)                 |    В РАЗРАБОТКЕ.      |  Apache Airflow. Python. Apache Spark(PySpark), PostgreSQL, Docker compose.                    |
 |   6.  |     [ЗАГРУЗКА ДАННЫХ в Clickhouse.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%206.)                |    В РАЗРАБОТКЕ.      |   Apache Airflow. Python. Apache Spark(PySpark), Clickhouse, Docker compose.                    |
 |   7.  |     [ЗАГРУЗКА ДАННЫХ в PostgreSQL, в Clickhouse.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%207.)                 |    В РАЗРАБОТКЕ.      |   Apache Airflow. Python. Apache Spark(PySpark), PostgreSQL, Clickhouse, Docker compose.                    |
-|   8.  |     [Проект 8.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%208.)                |    В РАЗРАБОТКЕ.      |   В разработке.                    |
+|   8.  |     [ETL-pipeline.](https://github.com/brrndalex/Data-Engineer-Projects/tree/main/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%208.)                |    В РАЗРАБОТКЕ.      |   В разработке. Docker composе. Jupyter Notebook. Clickhouse. Apache Superset.                   |
 
 
 E-mail: sashasanyashura@yandex.ru
